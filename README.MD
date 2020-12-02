@@ -1,5 +1,5 @@
-Comparison of JSON Serilization to File
-=======================================
+Comparison of JSON Serialization to File
+========================================
 
 This repository contains a JMH benchmark to measure the average time to serialize an Array of Objects to disk using;
  - GSON
@@ -13,11 +13,11 @@ Results
 
 Benchmark                                  |Mode  |Cnt    |Score   |Error  |Units
 ---|---|---|---|---|---
-SerilizationBenchmark.testGson             |avgt   |50   |65.464 |± 1.232  |us/op
-SerilizationBenchmark.testGsonNotFlushing  |avgt   |50   |63.178 |± 0.677  |us/op
-SerilizationBenchmark.testJackson          |avgt   |50   |29.759 |± 0.239  |us/op
-SerilizationBenchmark.testJsonB            |avgt   |50  |116.546 |± 1.216  |us/op
-SerilizationBenchmark.testJsonBFileWriter  |avgt   |50  |121.553 |± 2.058  |us/op
+SerializationBenchmark.testGson             |avgt   |50   |65.464 |± 1.232  |us/op
+SerializationBenchmark.testGsonNotFlushing  |avgt   |50   |63.178 |± 0.677  |us/op
+SerializationBenchmark.testJackson          |avgt   |50   |29.759 |± 0.239  |us/op
+SerializationBenchmark.testJsonB            |avgt   |50  |116.546 |± 1.216  |us/op
+SerializationBenchmark.testJsonBFileWriter  |avgt   |50  |121.553 |± 2.058  |us/op
 
 
 How to run

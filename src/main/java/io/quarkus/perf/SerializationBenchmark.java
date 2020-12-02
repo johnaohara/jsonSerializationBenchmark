@@ -20,7 +20,7 @@ import static java.util.concurrent.TimeUnit.MICROSECONDS;
 @BenchmarkMode(Mode.AverageTime)
 @Measurement(timeUnit = MICROSECONDS)
 @OutputTimeUnit(MICROSECONDS)
-public class SerilizationBenchmark {
+public class SerializationBenchmark {
 
 
 
